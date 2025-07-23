@@ -2,8 +2,8 @@
 import tailwindVitePlugin from '@tailwindcss/vite'
 
 export default defineNuxtConfig({
-  modules: ['@nuxt/icon', '@nuxt/fonts', '@nuxt/eslint'],
-  devtools: { enabled: false },
+  modules: ['@nuxt/icon', '@nuxt/fonts', '@nuxt/eslint', 'shadcn-nuxt'],
+  devtools: { enabled: true },
   app: {
     head: {
       htmlAttrs: {
@@ -35,4 +35,9 @@ export default defineNuxtConfig({
       stylistic: true,
     },
   },
+  shadcn: {
+    componentDir: './app/components/ui',
+    prefix: '',
+  },
+
 })
