@@ -4,10 +4,11 @@
 @custom-variant dark (&:is(.dark *):not(.light *));
 
 @font-face {
-  font-family: "Barrio";
-  src: url("@/assets/fonts/Barrio-Regular.ttf") format("truetype");
+  font-family: "MyGhibliFont";
+  src: url("~assets/fonts/MyGhibliFont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 @theme inline {
