@@ -1,9 +1,9 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 import tailwindVitePlugin from '@tailwindcss/vite'
 
 export default defineNuxtConfig({
   modules: ['@nuxt/icon', '@nuxt/fonts', '@nuxt/eslint', 'shadcn-nuxt'],
   devtools: { enabled: true },
+
   app: {
     head: {
       htmlAttrs: {
@@ -11,11 +11,14 @@ export default defineNuxtConfig({
       },
     },
   },
-  css: ['./app/assets/css/main.css'],
+
+  css: ['@/assets/css/fonts.css', './app/assets/css/main.css'],
+
   future: {
     compatibilityVersion: 4,
   },
-  compatibilityDate: '2025-05-15',
+  compatibilityDate: '2025-07-15',
+
   vite: {
     plugins: [tailwindVitePlugin()],
     esbuild: {
@@ -30,14 +33,15 @@ export default defineNuxtConfig({
       cssMinify: 'lightningcss',
     },
   },
+
   eslint: {
     config: {
       stylistic: true,
     },
   },
+
   shadcn: {
     componentDir: './app/components/ui',
     prefix: '',
   },
-
 })

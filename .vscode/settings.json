@@ -12,6 +12,6 @@
     "strings": true
   },
   "[vue]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    "editor.defaultFormatter": "Vue.volar"
   }
 }
