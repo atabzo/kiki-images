@@ -5,7 +5,7 @@
       class="absolute bottom-0 right-10 w-84 md:w-84 h-auto object-contain" />
 
     <!-- Heading at the top or above -->
-    <h1 class="text-white text-3xl md:text-5xl font-bold">
+    <h1 class="font=barrio text-white text-3xl md:text-5xl font-bold">
       Kiki's Image Compression Service~
     </h1>
   </div>
@@ -41,7 +41,7 @@ function startAnimation() {
           if (animating) nextCycle()
         }, 200)
       }, 200)
-    }, 3000)
+    }, 2000)
   }
   nextCycle()
 }

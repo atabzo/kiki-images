@@ -4,13 +4,16 @@
 @custom-variant dark (&:is(.dark *):not(.light *));
 
 @font-face {
-  font-family: "MyGhibliFont";
-  src: url("~assets/fonts/MyGhibliFont.ttf") format("truetype");
+  font-family: "Barrio";
+  src: url("@/assets/fonts/Barrio-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
+@theme {
+  --font-headline: "Barrio", sans-serif;
+}
 @theme inline {
   --color-background: var(--background);
 
