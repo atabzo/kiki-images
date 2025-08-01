@@ -3,12 +3,8 @@
 
 @custom-variant dark (&:is(.dark *):not(.light *));
 
-@font-face {
-  font-family: "Barrio";
-  src: url("@/assets/fonts/Barrio-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+html {
+  font-family: "Anton";
 }
 
 @theme {
