@@ -6,7 +6,7 @@
 
     <!-- Heading at the top or above -->
     <h1 class="font=barrio text-white text-3xl md:text-5xl font-bold">
-      Kiki's Image Compression Service~
+      Welcome to Kiki's Hideout!
     </h1>
   </div>
 </template>
